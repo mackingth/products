@@ -8,10 +8,10 @@ from selenium.webdriver.chrome.options import Options
 import chromedriver_binary
 import datetime
 
-ten_koza1 = '242'
-ten_koza2 = '177253'
-ten_pass = 'p99isgod'
-file_name = '/Users/mac10/Desktop/stock/data' + datetime.datetime.now().strftime('%Y-%m-%d') + '_values_volume'
+ten_koza1 = ''
+ten_koza2 = ''
+ten_pass = ''
+file_name = '' + datetime.datetime.now().strftime('%Y-%m-%d') + '_values_volume'
 
 # 銘柄リスト
 a = int(input('TOP6+6 or NEWS\nTOP6+6 = 1\nNEWS = 2\n'))

@@ -19,14 +19,10 @@ pathChrome = cwdpath + "\chromedriver.exe"
 options = Options()
 options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
-"""
-code1 = '384'
-code2 = '41513'
-code3 = 'Masaki54'
-"""
-code1 = '242'
-code2 = '177253'
-code3 = 'p99isgod'
+
+code1 = ''
+code2 = ''
+code3 = ''
 
 # 銘柄リスト初期化
 brandnumber = []

@@ -12,27 +12,20 @@ import chromedriver_binary
 DOMAIN_BASE = "https://www.instagram.com/"
 a = int(input('どのアカウントにしますか？: 1.本垢 2.jp用 3.お試し用 4.女子用\n'))
 if a == 1:
-    LOGIN_ID = "mack_the_ten"
-    PASSWORD = "p226isgod"
-    search_list = ['#学生','#サークル','#早稲田','#秋コーデメンズ','#大学生の勉強垢','#computernetworking','#大学生ごはん記録', '#公園フォト', '#東京散歩','#computerprogramming',
-                   '#大学1年生', '#大学2年生', '#大学3年生', '#大学4年生', '#公園デート', '#公園散歩', '公園コーデ', '#大学生モデル','#千葉大学','#computerengineering',
-                   '#学生トレーダー','#センター分け', '#センター分け男子', '#散歩', '#散歩コーデ', '#散歩写真', '#散歩の達人','#カフェ散歩','#computerscience','#computersecurity',
-                   '#センター分け前髪', '#センターパート','#センターパート男子','#センターパート女子', '#センターパートウルフ', '#センターパートショート','#computermemes',
-                   '#センターパートマッシュ','#大学生', '#センターパートスパイラル','#大学生の勉強','#大学生一人暮らし日記','#faze', '#fazeup', '#fazeclan']
+    LOGIN_ID = ""
+    PASSWORD = ""
+    search_list = ['#A','#B','#C']
 elif a == 2:
-    LOGIN_ID = "_jumpingpoint_"
-    PASSWORD =  "tempurapura"
-    search_list = ['#大学生ごはん記録','#株価','#株式','#株トレーダー','#株取引','#大学生の勉強垢','#株式市場','#日本株', '#大学生', '#大学生アルバイト',
-                   '#株初心者','#株式投資初心者','#株主優待券','#株活','#学生','#サークル','#早稲田','#早稲田大学','#大学生ビジネス',
-                   '#投資','#大学1年生', '#大学2年生', '#大学3年生', '#大学4年生', '#投資初心者','#大学生の勉強','#大学生メイク','#大学生一人暮らし日記',
-                   '#株式投資','#注目銘柄','#デイトレ','#仮想通貨','#youtuber','#学生トレーダー','#voicy', '#大学生貯金', '#大学生ダイエット']
+    LOGIN_ID = ""
+    PASSWORD =  ""
+    search_list = ['#D','#E','#F']
 elif a == 3:
-    LOGIN_ID = "skosppksmnma"
-    PASSWORD =  "ppkisgod"
-    search_list = ['#faze', '#fazeup', '#fazeclan']
+    LOGIN_ID = ""
+    PASSWORD =  ""
+    search_list = ['#G','#H','I']
 else:
-    LOGIN_ID = "hanahuru46"
-    PASSWORD =  "ppkisgod"
+    LOGIN_ID = ""
+    PASSWORD =  ""
 
 length = len(search_list)
 

@@ -6,15 +6,15 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 import chromedriver_binary
 
-motoki_koza1 = '263'
-motoki_koza2 = '96083'
-motoki_pass = 'hinata1115'
-ten_koza1 = '242'
-ten_koza2 = '177253'
-ten_pass = 'p99isgod'
-masaki_koza1 = '384'
-masaki_koza2 = '41513'
-masaki_pass = 'Masaki54'
+motoki_koza1 = ''
+motoki_koza2 = ''
+motoki_pass = ''
+ten_koza1 = ''
+ten_koza2 = ''
+ten_pass = ''
+masaki_koza1 = ''
+masaki_koza2 = ''
+masaki_pass = ''
 
 def job():
     options = Options()

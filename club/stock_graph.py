@@ -8,7 +8,7 @@ import datetime
 import csv
 import japanize_matplotlib
 
-file_name = '/Users/mac10/Desktop/stock/data' + datetime.datetime.now().strftime('%Y-%m-%d')
+file_name = '' + datetime.datetime.now().strftime('%Y-%m-%d')
 
 data1 = []
 data2 = []
